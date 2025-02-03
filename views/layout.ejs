@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <base href="/public">
+
+    <%- include('partial/css.ejs') %>
+
+    <body class="hidden-bar-wrapper">
+        <div class="page-wrapper">
+    <%- include('partial/preloader.ejs') %>
+    
+    <%- include('partial/sidebar.ejs') %>
+
+
+    <%- include('partial/header.ejs') %>
+
+        <main>
+            <%- body %>
+        </main>
+        
+    </div>
+
+    <%- include('partial/search.ejs') %>
+   
+    <%- include('partial/color.ejs') %>
+
+    <%- include('partial/scroll-top.ejs') %>
+    
+
+    <%- include('partial/script.ejs') %>
+</body>
+
+</html>
