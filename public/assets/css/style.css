@@ -4282,7 +4282,7 @@
     left:0px;
     top: 0px;
     font-size:var(--font-18);
-	color:var(--main-color-two);
+	color:var(--main-color);
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -4296,7 +4296,7 @@
 
 .accordion-box .block .icon-outer .icon-minus{
 	opacity:0;
-	color:var(--main-color-two);
+	color:var(--main-color);
 	font-weight:400;
 }
 
@@ -4336,7 +4336,7 @@
 	margin-bottom:0px;
 	line-height:1.7em;
 	font-size:var(--font-16);
-	color:var(--main-color-two);
+	color:var(--text-color);
 }
 
 .accordion-box .block .content p:last-child{

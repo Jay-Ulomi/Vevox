@@ -448,7 +448,7 @@
 	margin-top:-50px;
 	margin-bottom:-20px;
 	padding-bottom:var(--padding-bottom-15);
-	background-color:var(--main-color-two);
+	background-color:var(--main-color-three);
 }
 
 .main-header .header-upper .logo-box .logo{
@@ -461,7 +461,7 @@
 	left:0px;
 	bottom:-50px;
 	z-index:1;
-	border-top: 36px solid var(--main-color-two);
+	border-top: 36px solid var(--main-color-three);
     border-left: 170px solid transparent;
 }
 
