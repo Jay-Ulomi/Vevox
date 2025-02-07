@@ -1,0 +1,65 @@
+<!-- Page Title -->
+<section class="page-title">
+    <div class="content" style="background-image: url(assets/images/background/15.png)">
+        <div class="auto-container">
+            <h1>Our Projects</h1>
+        </div>
+    </div>
+    <ul class="page-breadcrumb">
+        <li><a href="/">home</a></li>
+        <li>Projects</li>
+    </ul>
+</section>
+<!-- End Page Title -->
+
+
+<!-- Projects Section Two -->
+<section class="projects-section-two">
+    <div class="auto-container">
+        <!-- Sec Title -->
+        <div class="sec-title centered">
+            <span class="icon flaticon-telephone"></span>
+            <h2>Our Company <span>Projects</span></h2>
+            <div class="text">Delivering world-class infrastructure and technology solutions</div>
+        </div>
+        
+        <!-- MixitUp Gallery -->
+        <div class="mixitup-gallery">
+            <!-- Filter -->
+            <div class="filters clearfix">
+                <ul class="filter-tabs filter-btns text-center clearfix">
+                    <li class="active filter" data-role="button" data-filter="all">All</li>
+                    <li class="filter" data-role="button" data-filter=".Telecommunications">Telecommunications</li>
+                    <li class="filter" data-role="button" data-filter=".Infrastructure">Infrastructure</li>
+                    <li class="filter" data-role="button" data-filter=".Technology">Technology</li>
+                    <li class="filter" data-role="button" data-filter=".Energy">Energy</li>
+                </ul>
+            </div>
+
+            <div class="filter-list row clearfix">
+                
+                <% projects.forEach(project => { %>
+                    <!-- Gallery Block Two -->
+                    <div class="gallery-block-two mix all <%= project.category.replace(/\s+/g, '-') %> col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <a href="<%= project.link %>"><img src="<%= project.image %>" alt="<%= project.title %>" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h5><a href="<%= project.link %>"><%= project.title %></a></h5>
+                                <div class="designation">Location: <span><%= project.location %></span></div>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+
+            <!-- Button Box -->
+            <div class="button-box text-center">
+                <a class="btn-style-two theme-btn" href="projects.html"><span class="txt">View All Projects</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Projects Section Two -->
+
