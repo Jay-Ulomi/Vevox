@@ -37,29 +37,47 @@
             </div>
 
             <div class="filter-list row clearfix">
-                
-                <% projects.forEach(project => { %>
-                    <!-- Gallery Block Two -->
-                    <div class="gallery-block-two mix all <%= project.category.replace(/\s+/g, '-') %> col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image">
-                                <a href="<%= project.link %>"><img src="<%= project.image %>" alt="<%= project.title %>" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h5><a href="<%= project.link %>"><%= project.title %></a></h5>
-                                <div class="designation">Location: <span><%= project.location %></span></div>
+                <% if (projects.length > 0) { %>
+                    <% projects.forEach(project => { %>
+                        <div class="gallery-block-two mix all <%= project.category.replace(/\s+/g, '-') %> col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="image">
+                                    <a href="<%= project.link %>"><img src="<%= project.image %>" alt="<%= project.title %>" /></a>
+                                </div>
+                                <div class="lower-content">
+                                    <h5><a href="<%= project.link %>"><%= project.title %></a></h5>
+                                    <div class="designation">Location: <span><%= project.location %></span></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                <% }) %>
+                    <% }) %>
+                <% } else { %>
+                    <p class="text-center">No projects available.</p>
+                <% } %>
             </div>
 
-            <!-- Button Box -->
-            <div class="button-box text-center">
-                <a class="btn-style-two theme-btn" href="projects.html"><span class="txt">View All Projects</span></a>
+            <!-- Pagination -->
+            <div class="pagination-box text-center">
+                <% if (totalPages > 1) { %>
+                    <ul class="pagination">
+                        <% if (currentPage > 1) { %>
+                            <li><a href="/project?page=<%= currentPage - 1 %>">&laquo; Prev</a></li>
+                        <% } %>
+
+                        <% for (let i = 1; i <= totalPages; i++) { %>
+                            <li class="<%= currentPage === i ? 'active' : '' %>">
+                                <a href="/project?page=<%= i %>"><%= i %></a>
+                            </li>
+                        <% } %>
+
+                        <% if (currentPage < totalPages) { %>
+                            <li><a href="/project?page=<%= currentPage + 1 %>">Next &raquo;</a></li>
+                        <% } %>
+                    </ul>
+                <% } %>
             </div>
         </div>
     </div>
 </section>
-<!-- End Projects Section Two -->
+
 

@@ -5,112 +5,113 @@
         "category": "Telecommunications",
         "location": "Dar es Salaam - Dodoma",
         "description": "Deployment and maintenance of high-speed fiber optic networks for seamless connectivity.",
-        "image": "assets/images/gallery/fiber1.jpg"
+        "image": "assets/images/gallery/p2.png"
       },
       {
         "title": "Backbone Fiber Installation",
         "category": "Telecommunications",
         "location": "Morogoro - Dodoma",
         "description": "Installation of backbone fiber infrastructure to support national connectivity.",
-        "image": "assets/images/gallery/fiber2.jpg"
+        "image": "assets/images/gallery/p1.png"
       },
       {
         "title": "Metro Fiber Expansion",
         "category": "Telecommunications",
         "location": "Mwanza",
         "description": "Expansion of metropolitan fiber networks to enhance internet services.",
-        "image": "assets/images/gallery/fiber3.jpg"
+        "image": "assets/images/gallery/p6.png"
       },
       {
         "title": "Rural Connectivity Project",
         "category": "Telecommunications",
         "location": "Lindi",
         "description": "Extending fiber connectivity to underserved rural areas.",
-        "image": "assets/images/gallery/fiber4.jpg"
+        "image": "assets/images/gallery/p5.png"
       },
       {
         "title": "Telecom Tower Construction",
         "category": "Infrastructure",
         "location": "Manyoni - Tabora",
         "description": "Construction of telecom towers to enhance mobile network coverage.",
-        "image": "assets/images/gallery/tower1.jpg"
+        "image": "assets/images/gallery/p4.png"
       },
       {
         "title": "Highway Telecom Towers",
         "category": "Infrastructure",
         "location": "Singida",
         "description": "Deployment of telecom towers along major highways to improve network reliability.",
-        "image": "assets/images/gallery/tower2.jpg"
+        "image": "assets/images/gallery/p5.png"
       },
       {
         "title": "Urban 5G Tower Installation",
         "category": "Infrastructure",
         "location": "Dodoma",
         "description": "Installation of 5G-ready telecom towers to support next-gen connectivity.",
-        "image": "assets/images/gallery/tower3.jpg"
+        "image": "assets/images/gallery/p7.png"
       },
       {
         "title": "Remote Area Network Towers",
         "category": "Infrastructure",
         "location": "Rukwa",
         "description": "Establishing network towers in remote areas to ensure full coverage.",
-        "image": "assets/images/gallery/tower4.jpg"
+        "image": "assets/images/gallery/p1.png"
       },
       {
         "title": "Smart City IoT Deployment",
         "category": "Technology",
         "location": "Arusha",
         "description": "Integration of IoT solutions for smart city infrastructure and automation.",
-        "image": "assets/images/gallery/smart_city.jpg"
+        "image": "assets/images/gallery/p5.png"
       },
       {
         "title": "AI-Based Traffic Management",
         "category": "Technology",
         "location": "Dar es Salaam",
         "description": "Implementation of AI-driven traffic control systems to improve urban mobility.",
-        "image": "assets/images/gallery/ai_traffic.jpg"
+        "image": "assets/images/gallery/p3.png"
       },
       {
         "title": "Cloud Data Center Expansion",
         "category": "Technology",
         "location": "Zanzibar",
         "description": "Expansion of cloud infrastructure for secure and scalable data solutions.",
-        "image": "assets/images/gallery/cloud_data.jpg"
+        "image": "assets/images/gallery/p4.png"
       },
       {
         "title": "Automated Security Surveillance",
         "category": "Technology",
         "location": "Mbeya",
         "description": "AI-driven security surveillance solutions for public safety and monitoring.",
-        "image": "assets/images/gallery/security_ai.jpg"
+        "image": "assets/images/gallery/p7.png"
+        
       },
       {
         "title": "Renewable Energy Solutions",
         "category": "Energy",
         "location": "Mbeya",
         "description": "Implementation of solar and wind energy solutions for sustainable power.",
-        "image": "assets/images/gallery/renewable.jpg"
+        "image": "assets/images/gallery/renewable.png"
       },
       {
         "title": "Solar Microgrid Deployment",
         "category": "Energy",
         "location": "Dodoma",
         "description": "Development of community-based solar microgrids to ensure reliable electricity.",
-        "image": "assets/images/gallery/solar_microgrid.jpg"
+        "image": "assets/images/gallery/solar_microgrid.png"
       },
       {
         "title": "Wind Energy Farms",
         "category": "Energy",
         "location": "Singida",
         "description": "Establishing wind farms to supplement the national energy grid.",
-        "image": "assets/images/gallery/wind_farm.jpg"
+        "image": "assets/images/gallery/wind_farm.png"
       },
       {
         "title": "Hydropower Station Upgrade",
         "category": "Energy",
         "location": "Mtwara",
         "description": "Modernizing hydropower stations for increased efficiency and capacity.",
-        "image": "assets/images/gallery/hydro_power.jpg"
+        "image": "assets/images/gallery/hydro_power.png"
       }
     ]
   }

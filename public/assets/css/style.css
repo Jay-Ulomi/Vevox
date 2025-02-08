@@ -10134,6 +10134,38 @@
 	background-color:var(--main-color-two);
 }
 
+
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    display: block;
+    padding: 8px 12px;
+    background: #dd2d2d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagination li.active a {
+    background: #f2be00;
+    font-weight: bold;
+}
+
+.pagination li a:hover {
+    background: #f2be00;
+}
+
+
 /* Post Widget */
 
 .post-widget .widget-content{
